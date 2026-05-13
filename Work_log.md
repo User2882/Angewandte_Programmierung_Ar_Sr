@@ -1,30 +1,321 @@
 # Work Log
 
-#Day 1 – FastAPI Basics
+**Student Name:** ARASH SARKHAB
 
-### What did I accomplish?
-- _Installed Python and uv_ -
-- Created first FastAPI project
-- Learned what an API is
-- Created GET endpoints
-- Used `/docs` for testing
+Dieses Worklog fasst meine Learnings, Herausforderungen sowie die dazugehörigen Lösungen von Tag 1 bis Tag 7 übersichtlich zusammen.
+
+## Template:
+
 ---
-### 🧠 What did I learn?
-- What FastAPI is
-- How `@app.get()` works
-- What `__name__ == "__main__"` means
-- How to run a server with uvicorn
 
-### ⚠️ What challenges did I face?
-- `pip` command not found
-- Wrong directory (`/` was read-only)
-- File name mismatch (`hat1.py` vs `main.py`)
+## 1. ✅ What did I accomplish?
 
-### 🛠️ How did I solve them?
-- Used `python3 -m pip`
-- Switched to home directory
-- Renamed file to `main.py`
+_Reflect on the activities, exercises, and work you completed today._
 
-### 📌 Notes
-- FastAPI auto-docs are very helpful
-- Restart server after code changes
+**Guiding questions:**
+- What topics or concepts did you work with?
+- What exercises or projects did you complete?
+- What tools or technologies did you use?
+- What did you learn or practice?
+
+
+
+---
+
+## 2. 🚧 What challenges did I face?
+
+_Describe any difficulties, obstacles, or confusing moments you encountered._
+
+**Guiding questions:**
+- What was difficult to understand?
+- Where did you get stuck?
+- What errors or problems did you face?
+- What felt frustrating or confusing?
+
+
+
+
+---
+
+## 3. 💡 How did I overcome them?
+
+_Explain how you overcame the challenges or what help you needed._
+
+**Guiding questions:**
+- What strategies did you try?
+- Who or what helped you (instructor, classmates, documentation)?
+- What did you learn from solving the problem?
+- What questions do you still have?
+
+
+---
+
+## Week 1
+
+### Day 1
+
+#### 1. ✅ What did I accomplish?
+
+
+
+
+
+
+---
+
+#### 2. 🚧 What challenges did I face?
+
+
+
+
+
+
+---
+
+#### 3. 💡 How did I overcome them?
+
+
+
+
+
+
+---
+
+### Day 2
+
+#### 1. ✅ What did I accomplish?
+
+
+
+
+
+
+---
+
+#### 2. 🚧 What challenges did I face?
+
+
+
+
+
+
+---
+
+#### 3. 💡 How did I overcome them?
+
+
+
+
+
+
+---
+
+### Day 3
+
+#### 1. ✅ What did I accomplish?
+
+
+
+
+
+
+---
+
+#### 2. 🚧 What challenges did I face?
+
+
+
+
+
+
+---
+
+#### 3. 💡 How did I overcome them?
+
+
+
+
+
+
+---
+
+## Week 2
+
+### Day 4
+
+#### 1. ✅ What did I accomplish?
+
+
+
+
+
+
+---
+
+#### 2. 🚧 What challenges did I face?
+
+
+
+
+
+
+---
+
+#### 3. 💡 How did I overcome them?
+
+
+
+
+
+
+---
+
+### Day 5
+
+#### 1. ✅ What did I accomplish?
+
+
+
+
+
+
+---
+
+#### 2. 🚧 What challenges did I face?
+
+
+
+
+
+
+---
+
+#### 3. 💡 How did I overcome them?
+
+
+
+
+
+
+---
+
+### Day 6
+
+#### 1. ✅ What did I accomplish?
+
+
+
+
+
+
+---
+
+#### 2. 🚧 What challenges did I face?
+
+
+
+
+
+
+---
+
+#### 3. 💡 How did I overcome them?
+
+
+
+
+
+
+---
+
+## Week 3
+
+### Day 7
+
+#### 1. ✅ What did I accomplish?
+
+
+
+
+
+
+---
+
+#### 2. 🚧 What challenges did I face?
+
+
+
+
+
+
+---
+
+#### 3. 💡 How did I overcome them?
+
+
+
+
+
+
+---
+
+### Day 8
+
+#### 1. ✅ What did I accomplish?
+
+
+
+
+
+
+---
+
+#### 2. 🚧 What challenges did I face?
+
+
+
+
+
+
+---
+
+#### 3. 💡 How did I overcome them?
+
+
+
+
+
+
+---
+
+### Day 9
+
+#### 1. ✅ What did I accomplish?
+
+
+
+
+
+
+---
+
+#### 2. 🚧 What challenges did I face?
+
+
+
+
+
+
+---
+
+#### 3. 💡 How did I overcome them?
+
+
+
+
+
+
+---
+
+
+# 🎉 Congratulations! You did it! 🎓✨

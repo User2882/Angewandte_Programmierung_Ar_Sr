@@ -77,28 +77,19 @@ Bei widersprüchlichen Lösungsansätzen aus verschiedenen Quellen habe ich jewe
 
 #### 1. ✅ What did I accomplish?
 
-
-
-
-
+Am zweiten Kurstag habe ich eine Note‑Taking‑API mit FastAPI umgesetzt und meine Python‑Grundlagen angewendet. Ich habe GET‑ und POST‑Endpoints erstellt, mit Pydantic Datenmodelle definiert und JSON als Datenaustauschformat genutzt. Zusätzlich habe ich File‑Persistenz implementiert, sodass Notizen in einer JSON‑Datei gespeichert und nach einem Neustart weiterhin verfügbar sind. Die API habe ich über /docs und /redoc getestet.
 
 ---
 
 #### 2. 🚧 What challenges did I face?
 
-
-
-
-
+Während der Umsetzung traten mehrere Fehler auf, darunter 500 Internal Server Error und 422 Unprocessable Entity. Probleme entstanden unter anderem durch Änderungen am Datenmodell, alte gespeicherte Daten ohne neue Felder sowie durch Routing‑Konflikte zwischen allgemeinen und spezifischen Endpoints. Zudem war es zeitlich herausfordernd, alle Aufgaben im vorgegebenen Zeitrahmen zu bearbeiten.
 
 ---
 
 #### 3. 💡 How did I overcome them?
 
-
-
-
-
+Ich habe die Fehler gelöst, indem ich Fehlermeldungen analysiert, Requests gezielt über /docs getestet und die Reihenfolge der Endpoints angepasst habe. Bei Modelländerungen habe ich gespeicherte Daten bereinigt oder neu erstellt. Durch strukturiertes Vorgehen, besseres Zeitmanagement und regelmäßiges Speichern der Dateien konnte ich die API erfolgreich fertigstellen.
 
 ---
 

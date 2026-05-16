@@ -142,28 +142,21 @@ Ich habe gelernt, dass Tests ein zentrales Werkzeug sind, um die Funktionalität
 
 #### 1. ✅ What did I accomplish?
 
-
-
-
-
+Am fünften Tag wurde die bestehende Notes‑API mithilfe von Pydantic gezielt verschärft. Ziel war es, ungültige Eingaben konsequent abzulehnen und gültige Daten zu normalisieren, ohne zusätzliche Logik in den Endpoints zu implementieren. Dafür wurden feste Feld‑Constraints definiert und bestehende Modelle angepasst.
+Zusätzlich wurden benutzerdefinierte Validatoren eingesetzt, um Regeln umzusetzen, die über einfache Typ‑ und Längenprüfungen hinausgehen. Dazu zählten unter anderem die Prüfung erlaubter Kategorien, die Bereinigung von Tags sowie eine Cross‑Field‑Regel, bei der Abhängigkeiten zwischen mehreren Feldern berücksichtigt werden. Für PATCH‑Requests wurde ein separates Update‑Modell verwendet, bei dem alle Felder optional sind, die Validierung jedoch weiterhin greift, sobald ein Feld gesetzt wird.
+Abschließend wurde mit einer eigenen Testdatei (test_validation.py) überprüft, dass alle Validierungsregeln korrekt funktionieren. Die Tests decken sowohl erfolgreiche Requests als auch erwartete Fehlerfälle (HTTP 422) ab und bestätigen damit die Stabilität der API.
 
 ---
 
 #### 2. 🚧 What challenges did I face?
 
-
-
-
-
+Eine Herausforderung bestand darin, Feld‑Validierung und Modell‑Validierung korrekt voneinander abzugrenzen und die passende Validator‑Art einzusetzen. Außerdem war es notwendig, die Validierungslogik schrittweise aufzubauen, bevor aussagekräftige Tests geschrieben werden konnten.
 
 ---
 
 #### 3. 💡 How did I overcome them?
 
-
-
-
-
+Durch die Arbeit an Tag 5 wurde deutlich, dass saubere Datenvalidierung ein zentraler Bestandteil robuster APIs ist. Pydantic‑Modelle können als verbindlicher Vertrag dienen, der Fehler frühzeitig verhindert und den Code in den Endpoints deutlich vereinfacht. Tests helfen dabei, diese Regeln nachvollziehbar und überprüfbar zu machen.
 
 ---
 

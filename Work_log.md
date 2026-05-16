@@ -97,28 +97,21 @@ Ich habe die Fehler gelöst, indem ich Fehlermeldungen analysiert, Requests gezi
 
 #### 1. ✅ What did I accomplish?
 
-
-
-
-
+Am dritten Tag habe ich meine Note‑Taking‑API weiterentwickelt und die Prinzipien von REST‑APIs praktisch angewendet. Aufbauend auf der bestehenden Implementierung habe ich vollständige CRUD‑Funktionalität umgesetzt und verschiedene Endpoints ergänzt. Dabei habe ich insbesondere mit GET‑, POST‑, PUT‑, PATCH‑ und DELETE‑Requests gearbeitet und gelernt, wie diese korrekt eingesetzt werden.
+Ein Schwerpunkt lag auf der Erweiterung von GET‑Endpunkten durch Query‑Parameter. Ich habe Filter für Kategorie, Suchbegriffe, Tags sowie einen Datumsbereich implementiert und gelernt, wie mehrere Filter gleichzeitig kombiniert werden können. Zusätzlich habe ich Statistik‑Endpunkte erstellt, um aggregierte Informationen wie die Anzahl von Notizen pro Kategorie und häufig genutzte Tags bereitzustellen.
+Darüber hinaus habe ich Resource‑Beziehungen umgesetzt, indem separate Endpoints für Tags und Kategorien eingeführt wurden. Dadurch konnte ich besser verstehen, wie REST‑konforme URL‑Strukturen aufgebaut sind und wie zusammengehörige Ressourcen logisch miteinander verknüpft werden.
 
 ---
 
 #### 2. 🚧 What challenges did I face?
 
-
-
-
-
+Während der Umsetzung kam es zu mehreren Problemen, insbesondere durch das parallele Arbeiten an verschiedenen Aufgaben. Die größte Herausforderung war die klare Trennung zwischen dateibasierter Persistenz (JSON) und der später eingeführten Datenbank‑Migration. Dabei wurde deutlich, wie wichtig eine saubere Struktur und schrittweises Vorgehen sind, um bestehende Funktionalitäten nicht zu beschädigen.
 
 ---
 
 #### 3. 💡 How did I overcome them?
 
-
-
-
-
+Ich habe gelernt, dass komplexere Erweiterungen wie Datenbank‑Migrationen einen grundlegenden Architekturwechsel darstellen und deshalb getrennt von funktionalen Erweiterungen umgesetzt werden sollten. Außerdem habe ich mein Verständnis für REST‑Design, Filterlogik und strukturierte Fehlerbehandlung vertieft. Insgesamt habe ich gelernt, systematischer vorzugehen und Änderungen schrittweise zu testen.
 
 ---
 
@@ -128,28 +121,20 @@ Ich habe die Fehler gelöst, indem ich Fehlermeldungen analysiert, Requests gezi
 
 #### 1. ✅ What did I accomplish?
 
-
-
-
-
+Am vierten Tag habe ich mich mit dem Erstellen von POST‑Endpunkten und dem Testen von APIs beschäftigt. Ich habe gelernt, wie neue Daten über einen POST‑Request an eine API gesendet werden und wie Pydantic‑Modelle zur Validierung von Eingaben genutzt werden. Außerdem habe ich nachvollzogen, wie Daten über JSON‑Dateien gespeichert und wieder geladen werden können.
+Der Schwerpunkt der Hausarbeit lag auf dem Schreiben von Tests mit pytest. Dafür habe ich eine Testsuite (test_notes.py) für die bestehende Notes‑API aus Tag 2 und Tag 3 erstellt. Die Tests decken CRUD‑Operationen, Filterfunktionen, Fehlerfälle sowie zusätzliche Endpunkte wie Statistik‑ und Kategorie‑Routen ab. Die Tests wurden mit der requests‑Bibliothek umgesetzt und folgen dem Arrange‑Act‑Assert‑Prinzip.
 
 ---
 
 #### 2. 🚧 What challenges did I face?
 
-
-
-
-
+Während der Arbeit war es zunächst schwierig, den Überblick zwischen verschiedenen APIs (Notes und Courses) zu behalten. Besonders wichtig war es, darauf zu achten, dass die Tests gegen den richtigen Server ausgeführt werden. Außerdem musste klar unterschieden werden, welche Aufgaben Lerninhalt waren und welche tatsächlich abgegeben werden sollten.
 
 ---
 
 #### 3. 💡 How did I overcome them?
 
-
-
-
-
+Ich habe gelernt, dass Tests ein zentrales Werkzeug sind, um die Funktionalität einer API systematisch zu überprüfen. Durch das Schreiben der Tests wurde deutlich, dass für die Bewertung nicht die Testergebnisse selbst, sondern die Struktur und Vollständigkeit der Testfälle entscheidend sind.
 
 ---
 

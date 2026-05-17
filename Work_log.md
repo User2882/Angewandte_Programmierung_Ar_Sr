@@ -2,7 +2,12 @@
 
 **Student Name:** ARASH SARKHAB
 
-Dieses Worklog fasst meine Learnings, Herausforderungen sowie die dazugehörigen Lösungen von Tag 1 bis Tag 7 übersichtlich zusammen.
+Dieses Worklog fasst meine Learnings, Herausforderungen sowie die dazugehörigen Lösungen von Tag 1 bis Tag 7 übersichtlich zusammen. + Tag 8
+## Hinweis an Prof. Enders: 
+Sehr geehrter Herr Prof. Enders,
+aufgrund gesundheitlicher Gründe (Notoperation) war es mir leider nicht möglich, an den Lehrveranstaltungen in Präsenz teilzunehmen. Trotz dessen habe ich zu Hause selbstständig und aktiv versucht, die Lerninhalte mithilfe der Präsentationsdateien sowie zusätzlicher Ressourcen (z. B. YouTube) nachzuarbeiten und zu verstehen.
+Daher bitte ich um Ihr Verständnis, falls einzelne Dateien oder die Projektstruktur nicht exakt der von Ihnen bevorzugten Ordnung entsprechen. Ich habe mich dennoch bemüht, die Hausarbeiten inhaltlich vollständig und gemäß den Aufgabenstellungen umzusetzen.
+Vielen Dank für Ihr Verständnis.
 
 ## Template:
 

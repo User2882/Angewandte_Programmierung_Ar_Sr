@@ -1,0 +1,101 @@
+[
+  {
+    "id": 2,
+    "title": "Updated Title",
+    "content": "New content",
+    "category": "personal",
+    "tags": [],
+    "created_at": "2026-05-15T17:44:57.551100"
+  },
+  {
+    "id": 4,
+    "title": "Updated Title",
+    "content": "New content",
+    "category": "personal",
+    "tags": [
+      "updated"
+    ],
+    "created_at": "2026-05-15T17:57:26.366233"
+  },
+  {
+    "id": 5,
+    "title": "Updated Title",
+    "content": "New content",
+    "category": "personal",
+    "tags": [
+      "updated"
+    ],
+    "created_at": "2026-05-15T17:57:28.882393"
+  },
+  {
+    "id": 6,
+    "title": "Learn FastAPI",
+    "content": "Day 3 homework",
+    "category": "study",
+    "tags": [
+      "api",
+      "python"
+    ],
+    "created_at": "2026-05-15T18:34:44.123512"
+  },
+  {
+    "id": 7,
+    "title": "Test Note",
+    "content": "Test content",
+    "category": "Work",
+    "tags": [
+      "test"
+    ],
+    "created_at": "2026-05-16T17:09:30.237821"
+  },
+  {
+    "id": 8,
+    "title": "Test Note",
+    "content": "Test content",
+    "category": "Work",
+    "tags": [
+      "test"
+    ],
+    "created_at": "2026-05-16T17:09:30.244630"
+  },
+  {
+    "id": 9,
+    "title": "Updated Title",
+    "content": "Test content",
+    "category": "Work",
+    "tags": [
+      "test"
+    ],
+    "created_at": "2026-05-16T17:09:30.286786"
+  },
+  {
+    "id": 10,
+    "title": "Test Note",
+    "content": "Test content",
+    "category": "Work",
+    "tags": [
+      "test"
+    ],
+    "created_at": "2026-05-16T17:32:06.422543"
+  },
+  {
+    "id": 11,
+    "title": "Test Note",
+    "content": "Test content",
+    "category": "Work",
+    "tags": [
+      "test"
+    ],
+    "created_at": "2026-05-16T17:32:06.430203"
+  },
+  {
+    "id": 12,
+    "title": "Updated Title",
+    "content": "Test content",
+    "category": "Work",
+    "tags": [
+      "test"
+    ],
+    "created_at": "2026-05-16T17:32:06.472797"
+  }
+]

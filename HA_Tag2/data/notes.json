@@ -1,0 +1,51 @@
+[
+  {
+    "id": 1,
+    "title": "string",
+    "content": "string",
+    "created_at": "2026-05-15T15:59:31.177040",
+    "category": "string"
+  },
+  {
+    "id": 2,
+    "title": "shopping",
+    "content": "banana",
+    "created_at": "2026-05-15T16:00:49.713505",
+    "category": "general"
+  },
+  {
+    "id": 3,
+    "title": "Exam Prep",
+    "content": "Study chapters 1-5",
+    "created_at": "2026-05-15T16:00:59.224426",
+    "category": "study"
+  },
+  {
+    "id": 4,
+    "title": "Test Note",
+    "content": "Test content",
+    "created_at": "2026-05-16T17:33:10.707256",
+    "category": "Work"
+  },
+  {
+    "id": 5,
+    "title": "Test Note",
+    "content": "Test content",
+    "created_at": "2026-05-16T17:33:10.714329",
+    "category": "Work"
+  },
+  {
+    "id": 6,
+    "title": "Test Note",
+    "content": "Test content",
+    "created_at": "2026-05-16T17:33:10.719885",
+    "category": "Work"
+  },
+  {
+    "id": 7,
+    "title": "Test Note",
+    "content": "Test content",
+    "created_at": "2026-05-16T17:33:10.777722",
+    "category": "Work"
+  }
+]

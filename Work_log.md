@@ -56,7 +56,8 @@ _Explain how you overcame the challenges or what help you needed._
 
 #### 1. ✅ What did I accomplish?
 
-Am ersten Tag habe ich meine Entwicklungsumgebung eingerichtet und die Grundlagen von APIs und FastAPI kennengelernt. Ich habe Git, Visual Studio Code und den Paketmanager uv installiert und ein erstes FastAPI‑Projekt erstellt. Im praktischen Teil habe ich eine FastAPI‑Applikation umgesetzt und drei GET‑Endpoints (/, /status, /about) implementiert. Alle Endpoints habe ich über die automatische Dokumentation unter /docs getestet. Dabei habe ich gelernt, wie FastAPI aufgebaut ist und wie einfache API‑Antworten in JSON zurückgegeben werden.
+Als erstes habe ich meine Arbeitsumgebung vorbereitet und mich mit den grundlegenden Konzepten von APIs sowie dem Framework FastAPI beschäftigt. Dafür installierte ich zunächst Git, Visual Studio Code und den Paketmanager uv. Anschließend legte ich mein erstes Projekt mit FastAPI an.
+Im praktischen Teil entwickelte ich eine einfache Anwendung und richtete drei GET-Endpunkte ein: /, /status und /about. Diese testete ich mithilfe der automatisch erzeugten Dokumentation unter /docs. Dadurch bekam ich ein besseres Verständnis dafür, wie FastAPI aufgebaut ist und wie Daten im JSON-Format über eine API bereitgestellt werden.
 
 ---
 
@@ -77,7 +78,7 @@ Bei widersprüchlichen Lösungsansätzen aus verschiedenen Quellen habe ich jewe
 
 #### 1. ✅ What did I accomplish?
 
-Am zweiten Kurstag habe ich eine Note‑Taking‑API mit FastAPI umgesetzt und meine Python‑Grundlagen angewendet. Ich habe GET‑ und POST‑Endpoints erstellt, mit Pydantic Datenmodelle definiert und JSON als Datenaustauschformat genutzt. Zusätzlich habe ich File‑Persistenz implementiert, sodass Notizen in einer JSON‑Datei gespeichert und nach einem Neustart weiterhin verfügbar sind. Die API habe ich über /docs und /redoc getestet.
+FÜr diesen Abschnitt habe ich eine Note‑Taking‑API mit FastAPI umgesetzt und meine Python‑Grundlagen angewendet. Ich habe GET‑ und POST‑Endpoints erstellt, mit Pydantic Datenmodelle definiert und JSON als Datenaustauschformat genutzt. Zusätzlich habe ich File‑Persistenz implementiert, sodass Notizen in einer JSON‑Datei gespeichert und nach einem Neustart weiterhin verfügbar sind. Die API habe ich über /docs und /redoc getestet.
 
 ---
 
@@ -97,7 +98,7 @@ Ich habe die Fehler gelöst, indem ich Fehlermeldungen analysiert, Requests gezi
 
 #### 1. ✅ What did I accomplish?
 
-Am dritten Tag habe ich meine Note‑Taking‑API weiterentwickelt und die Prinzipien von REST‑APIs praktisch angewendet. Aufbauend auf der bestehenden Implementierung habe ich vollständige CRUD‑Funktionalität umgesetzt und verschiedene Endpoints ergänzt. Dabei habe ich insbesondere mit GET‑, POST‑, PUT‑, PATCH‑ und DELETE‑Requests gearbeitet und gelernt, wie diese korrekt eingesetzt werden.
+Ich habe meine Note-Taking-API schrittweise erweitert und dabei die zentralen Konzepte von REST-APIs praktisch vertieft. Dazu implementierte ich die vollständige CRUD-Funktionalität und ergänzte die Anwendung um zusätzliche Endpoints für das Erstellen, Auslesen, Aktualisieren und Löschen von Notizen. Auf diese Weise konnte ich den Einsatz von GET-, POST-, PUT-, PATCH- und DELETE-Requests nachvollziehen und ein besseres Verständnis für ihre jeweilige Funktion entwickeln.
 Ein Schwerpunkt lag auf der Erweiterung von GET‑Endpunkten durch Query‑Parameter. Ich habe Filter für Kategorie, Suchbegriffe, Tags sowie einen Datumsbereich implementiert und gelernt, wie mehrere Filter gleichzeitig kombiniert werden können. Zusätzlich habe ich Statistik‑Endpunkte erstellt, um aggregierte Informationen wie die Anzahl von Notizen pro Kategorie und häufig genutzte Tags bereitzustellen.
 Darüber hinaus habe ich Resource‑Beziehungen umgesetzt, indem separate Endpoints für Tags und Kategorien eingeführt wurden. Dadurch konnte ich besser verstehen, wie REST‑konforme URL‑Strukturen aufgebaut sind und wie zusammengehörige Ressourcen logisch miteinander verknüpft werden.
 
@@ -121,7 +122,7 @@ Ich habe gelernt, dass komplexere Erweiterungen wie Datenbank‑Migrationen eine
 
 #### 1. ✅ What did I accomplish?
 
-Am vierten Tag habe ich mich mit dem Erstellen von POST‑Endpunkten und dem Testen von APIs beschäftigt. Ich habe gelernt, wie neue Daten über einen POST‑Request an eine API gesendet werden und wie Pydantic‑Modelle zur Validierung von Eingaben genutzt werden. Außerdem habe ich nachvollzogen, wie Daten über JSON‑Dateien gespeichert und wieder geladen werden können.
+Ich habe mich mit dem Erstellen von POST‑Endpunkten und dem Testen von APIs beschäftigt. Ich habe gelernt, wie neue Daten über einen POST‑Request an eine API gesendet werden und wie Pydantic‑Modelle zur Validierung von Eingaben genutzt werden. Außerdem habe ich nachvollzogen, wie Daten über JSON‑Dateien gespeichert und wieder geladen werden können.
 Der Schwerpunkt der Hausarbeit lag auf dem Schreiben von Tests mit pytest. Dafür habe ich eine Testsuite (test_notes.py) für die bestehende Notes‑API aus Tag 2 und Tag 3 erstellt. Die Tests decken CRUD‑Operationen, Filterfunktionen, Fehlerfälle sowie zusätzliche Endpunkte wie Statistik‑ und Kategorie‑Routen ab. Die Tests wurden mit der requests‑Bibliothek umgesetzt und folgen dem Arrange‑Act‑Assert‑Prinzip.
 
 ---
@@ -142,7 +143,7 @@ Ich habe gelernt, dass Tests ein zentrales Werkzeug sind, um die Funktionalität
 
 #### 1. ✅ What did I accomplish?
 
-Am fünften Tag wurde die bestehende Notes‑API mithilfe von Pydantic gezielt verschärft. Ziel war es, ungültige Eingaben konsequent abzulehnen und gültige Daten zu normalisieren, ohne zusätzliche Logik in den Endpoints zu implementieren. Dafür wurden feste Feld‑Constraints definiert und bestehende Modelle angepasst.
+Die bestehende Notes-API wurde mithilfe von Pydantic weiter abgesichert und die Datenvalidierung deutlich strenger gestaltet.Ziel war es, ungültige Eingaben konsequent abzulehnen und gültige Daten zu normalisieren, ohne zusätzliche Logik in den Endpoints zu implementieren. Dafür wurden feste Feld‑Constraints definiert und bestehende Modelle angepasst.
 Zusätzlich wurden benutzerdefinierte Validatoren eingesetzt, um Regeln umzusetzen, die über einfache Typ‑ und Längenprüfungen hinausgehen. Dazu zählten unter anderem die Prüfung erlaubter Kategorien, die Bereinigung von Tags sowie eine Cross‑Field‑Regel, bei der Abhängigkeiten zwischen mehreren Feldern berücksichtigt werden. Für PATCH‑Requests wurde ein separates Update‑Modell verwendet, bei dem alle Felder optional sind, die Validierung jedoch weiterhin greift, sobald ein Feld gesetzt wird.
 Abschließend wurde mit einer eigenen Testdatei (test_validation.py) überprüft, dass alle Validierungsregeln korrekt funktionieren. Die Tests decken sowohl erfolgreiche Requests als auch erwartete Fehlerfälle (HTTP 422) ab und bestätigen damit die Stabilität der API.
 
@@ -164,28 +165,20 @@ Durch die Arbeit an Tag 5 wurde deutlich, dass saubere Datenvalidierung ein ze
 
 #### 1. ✅ What did I accomplish?
 
-
-
-
-
+Am Tag 6 wurde mit einer vorgegebenen Referenz‑Test‑Suite gearbeitet, um die bestehende Notes‑API testsicher zu machen. Dazu wurde die Datei test_main.py in das Projekt integriert und mit pytest ausgeführt. Relevante Tests liefen erfolgreich, während optionale Tests (z. B. für nicht implementierte Features) korrekt übersprungen wurden.
+Die bestehende main.py wurde als zentrale Referenz verwendet und nur minimal angepasst, um ein konsistentes Verhalten gegenüber der Test‑Suite sicherzustellen. Ziel war es, keine neuen Funktionen zu implementieren, sondern die vorhandene API kompatibel zur Test‑Suite zu halten. Am Ende liefen alle relevanten Tests ohne Fehler oder Fehlschläge durch, womit die Anforderungen für Tag 6 erfüllt waren.
 
 ---
 
 #### 2. 🚧 What challenges did I face?
 
-
-
-
-
+Eine Herausforderung bestand darin, zwischen tatsächlich relevanten Tests und bewusst übersprungenen Tests zu unterscheiden. Zudem war es wichtig zu verstehen, welche main.py von der Test‑Suite importiert wird, um sicherzustellen, dass der richtige Code geprüft wird.
 
 ---
 
 #### 3. 💡 How did I overcome them?
 
-
-
-
-
+Ich habe gelernt, dass automatisierte Tests ein zentrales Werkzeug zur Überprüfung der API‑Stabilität sind und dass „SKIPPED“‑Tests kein Fehler, sondern ein bewusstes Design der Test‑Suite sein können. Außerdem wurde deutlich, wie wichtig eine klare Projektstruktur ist, damit externe Tests zuverlässig mit dem eigenen Code arbeiten können.
 
 ---
 
@@ -195,28 +188,19 @@ Durch die Arbeit an Tag 5 wurde deutlich, dass saubere Datenvalidierung ein ze
 
 #### 1. ✅ What did I accomplish?
 
-
-
-
-
+Ich habe ein einfaches Frontend für die bestehende Notes‑API mit Streamlit umgesetzt. Das Frontend ermöglicht es, alle vorhandenen Notes vom Backend abzurufen, eine Liste der Note‑Titel anzuzeigen und die Details einer ausgewählten Note (Inhalt, Kategorie und Tags) darzustellen. Zusätzlich können neue Notes über ein Formular erstellt werden, die nach dem Absenden direkt in der Liste erscheinen.
 
 ---
 
 #### 2. 🚧 What challenges did I face?
 
-
-
-
-
+Eine Herausforderung war die korrekte Kommunikation zwischen Frontend und Backend, insbesondere die richtige Reihenfolge beim Laden und Verwenden von Daten, um Laufzeitfehler zu vermeiden. Außerdem führte das automatische Neuladen von Streamlit dazu, dass Variablen sauber initialisiert werden mussten. Auch das parallele Arbeiten mit zwei Terminals (Backend und Frontend) erforderte Aufmerksamkeit.
 
 ---
 
 #### 3. 💡 How did I overcome them?
 
-
-
-
-
+Ich habe die Probleme gelöst, indem ich Variablen konsequent initialisiert und den Code klar strukturiert habe, sodass Daten immer erst geladen werden, bevor sie verwendet werden. Durch den Einsatz von Streamlit‑Forms konnte die Eingabe neuer Notes zuverlässig gesteuert werden. Schrittweises Testen der einzelnen Funktionen stellte sicher, dass sowohl das Anzeigen als auch das Erstellen von Notes korrekt funktioniert.
 
 ---
 
@@ -224,59 +208,4 @@ Durch die Arbeit an Tag 5 wurde deutlich, dass saubere Datenvalidierung ein ze
 
 #### 1. ✅ What did I accomplish?
 
-
-
-
-
-
----
-
-#### 2. 🚧 What challenges did I face?
-
-
-
-
-
-
----
-
-#### 3. 💡 How did I overcome them?
-
-
-
-
-
-
----
-
-### Day 9
-
-#### 1. ✅ What did I accomplish?
-
-
-
-
-
-
----
-
-#### 2. 🚧 What challenges did I face?
-
-
-
-
-
-
----
-
-#### 3. 💡 How did I overcome them?
-
-
-
-
-
-
----
-
-
-# 🎉 Congratulations! You did it! 🎓✨
+Ich habe selbstständig an der Finalisierung des Projekts gearbeitet. Dabei habe ich alle relevanten Dateien aus den vorherigen Tagen strukturiert, bereinigt und übersichtlich organisiert. Anschließend habe ich das vollständige Projekt inklusive Backend, Frontend, Tests und Worklogs in ein GitHub‑Repository hochgeladen.
